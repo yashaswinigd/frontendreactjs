@@ -28,7 +28,7 @@ stages:
         command: 'build'
         Dockerfile: '**/Dockerfile'
         tags: |
-          backend_$(Build.BuildId)
+          frontend_$(Build.BuildId)
       name: buildImage
 
 - stage: PushDockerImage
