@@ -59,7 +59,7 @@ stages:
 
 - stage: ModifyAndPublishYaml
   displayName: 'Modify and Publish Kubernetes Manifest'
-  dependsOn: PushDockerImage
+  dependsOn: CleanupDockerImages
   jobs:
   - job: modifyAndPublish
     displayName: 'Modify Kubernetes Manifest and Publish'
