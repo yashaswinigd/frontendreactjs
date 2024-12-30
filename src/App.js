@@ -23,6 +23,7 @@ class App extends courses {
             <div className="app">
                 <header className="app-header">
                     <header className="header-container">
+                        <h1>Shiva Sai's</h1>
                         <h1>Perseverance Software Training Institute</h1>
                     </header>
                     <div className="social-buttons" style={{ display: "flex", gap: "10px", position: "absolute", top: "5px", right: "10px" }}>
